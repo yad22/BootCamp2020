@@ -2,19 +2,74 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <style>
-        h1 {
-            color: red;
-            background-color: lightgoldenrodyellow;
-            border-style: solid;
-            border-width: 8px;
-            border-color: navy;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+    />
 </head>
 <body>
-    <h1>
-        Hello From <s>Hasan</s> S.M.Hasan
-    </h1>
+    <article class="tweet">
+        
+        <img alt="disply" src="kaneki.jpg" class="dp"/>
+        
+        <div class="right-content">
+
+            <div class="author-meta">
+
+                <span class="name">Hasan</span>
+                <span class="handle">@smhasan.yad</span>
+                <span class="time">2h ago</span>
+            
+            </div>
+
+            
+            <p>
+                Studies: MBBS at Dow University
+                Hobbies: Currently trying to learn Web Development and Artificial Intelligence
+            </p>
+            
+
+            <ul class="actions">
+                <li>
+                  <button>
+                    <i
+                      class="fas fa-reply"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="sr-only">Reply</span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <i
+                      class="fas fa-retweet"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="sr-only">Retweet</span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <i
+                      class="fas fa-heart"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="sr-only">Like</span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span aria-hidden="true">...</span>
+                    <span class="sr-only">More Actions</span>
+                  </button>
+                </li>
+              </ul>
+
+        </div>
+
+    </article>
 </body>
 </html>
